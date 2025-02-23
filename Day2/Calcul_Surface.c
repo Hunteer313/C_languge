@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #define pi 3.14 
 
+//For the const value we can meke #define ... or const .... for ex : const float_Pi = 3.14;
+
+
 int main ()
 {
     float radius, surface;
