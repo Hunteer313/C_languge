@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void modelCars(int, char*, double);
+void modelCar(int, char*, float);
 int main()
 {
     modelCar(1,"Mercedes", 90.3);
@@ -13,7 +13,7 @@ int main()
 }
 
 
-void modelCar(int rank, char name[], double price)
+void modelCar(int rank, char name[], float price)
 {
     printf("%d\t",rank);
     printf("%s\t", name);
