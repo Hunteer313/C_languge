@@ -19,4 +19,5 @@ void modelCar(int rank, char name[], float price)
     printf("%s\t", name);
     printf("%.1f K$\n", price);
     return;
+    
 }
