@@ -10,6 +10,7 @@ int main()
     modelCar(4,"VW",35.6);
     modelCar(5, "Skoda", 25.4);
     return 0;
+    
 }
 
 
@@ -19,5 +20,5 @@ void modelCar(int rank, char name[], float price)
     printf("%s\t", name);
     printf("%.1f K$\n", price);
     return;
-    
+
 }
