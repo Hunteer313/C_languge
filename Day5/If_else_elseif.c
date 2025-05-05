@@ -14,7 +14,7 @@ int main()
     else if(PIN == 1234)
         {printf("Unlockes!\n");}
     else
-        {printf("Plese, verify tour PIN code.\n");}
+        {printf("Plese, verify your PIN code.\n");}
 
         return 0;
 
